@@ -7,6 +7,7 @@ const nextConfig = {
       'img.icons8.com',
       'icons8.com',
       'user-images.githubusercontent.com',
+      'ozkuzfbdevqwhsqwknht.supabase.co',
     ],
   },
 };

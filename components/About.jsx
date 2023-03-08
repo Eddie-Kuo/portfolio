@@ -27,7 +27,7 @@ export default function About() {
             viewport={{
                 once: true
             }} 
-            src='https://cdn.pixabay.com/photo/2023/03/07/22/05/peronsal-7836493_960_720.jpg'
+            src='https://ozkuzfbdevqwhsqwknht.supabase.co/storage/v1/object/public/portfolio-pictures/IMG_7440.jpeg'
             className='-mb-20 md:md-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
             /> 
 
