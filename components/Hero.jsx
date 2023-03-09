@@ -16,8 +16,8 @@ export default function Hero() {
         <Image alt='self portrait' src='https://ozkuzfbdevqwhsqwknht.supabase.co/storage/v1/object/public/portfolio-pictures/IMG_1218%202.JPG' width={800} height={500} className="relative rounded-full h-40 w-40 mx-auto object-cover" />
         <div className='z-20'>
             <h2 className='text-sm uppercase text-gray-300 pb-2 tracking-[15px]'>Software Engineer</h2>
-            <h1 className=' text-4xl lg:text-6xl font-semibold scroll-px-10'>
-                <span className='mr-3'>{text}</span>
+            <h1 className=' text-2xl lg:text-6xl font-semibold scroll-px-10'>
+                <span className='mr-2'>{text}</span>
                 <Cursor cursorColor='#f7ab0a' />
             </h1>
 

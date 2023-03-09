@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import {motion} from 'framer-motion'
 
@@ -49,7 +50,7 @@ export default function About() {
                     <span className='underline decoration-[#2fbdff]'>Me</span> {''}
                 </h4>
                 <p className='text-base'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae beatae optio necessitatibus aspernatur maiores nemo maxime esse ducimus quaerat sapiente, assumenda ea neque! Et magnam veritatis molestiae autem nostrum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo consectetur quas cum sint iusto, voluptatibus dolore. Perspiciatis aut sit maxime dicta ex provident hic illo. Beatae nesciunt saepe nihil vitae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias quia assumenda doloribus, unde laborum perferendis blanditiis libero quo commodi voluptates fuga eius asperiores impedit voluptate debitis. Eos quidem porro incidunt!
+                    Hi! My name is Eddie and I'm a full-stack software engineer based in Austin, Texas. With a specialty in Javascript and experience in building out fullstack applications from scratch, I have found a passion in writing software that is focused on delivering the best user experience. What first intrigued me about tech was the power we are given as users. All the information in the world rests right in the palm of our hands. Now as the developer, I have made it my goal to create applications that will in hopes, simplify people's lives one line of code at a time.
                 </p>
             </motion.div>
     </motion.div>
