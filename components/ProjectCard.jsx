@@ -17,9 +17,8 @@ export default function ProjectCard({name, project, link}) {
             return null;
         }
     }
-
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-hidden'>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[350px] md:w-[500px] xl:w-[800px] snap-center bg-[#222c36] p-10 hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-y-scroll md:overflow-hidden lg:overflow-hidden scrollbar scrollbar-track-[rgb(83,104,120)]/20 scrollbar-thumb-[rgb(112,128,144)]/80'>
         <motion.img 
         initial={{y: -100,
         opacity: 0}}
@@ -32,9 +31,7 @@ export default function ProjectCard({name, project, link}) {
         <div className='px-0 md:px-10'>
             <h4 className='text-4xl font-light'>{name}</h4>
             <div className='flex flex-row'>
-                <a className='font-bold text-1xl mt-1 mr-2' href={project.github
-                }>Github</a>
-                {/* <a className='font-bold text-1xl mt-1 ml-2' href={project.link}>Link</a> */}
+                <a className='font-bold text-1xl mt-1 mr-2' href={project.github}>Github</a>
                 {validateLink()}
                 
             </div>
