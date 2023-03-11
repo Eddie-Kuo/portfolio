@@ -5,6 +5,8 @@ const projects = [
     image: 'https://img.icons8.com/pastel-glyph/256/boarding-pass--v2.png',
     github: 'https://github.com/Ciao-App',
     link: null,
+    description:
+      'Ciao is a mobile app developed with React Native to solve the issue of recommendations getting lost in past conversations. The main purpose of Ciao is to be able to document your favorite places by city for your friends to view and visit, sharing your memorable experiences with the people you care about most. This app is also intended to help with travel itinerary planning by providing recommendations from people in your circle of trust',
     tech: [
       'https://cdn.sanity.io/images/ltuexkre/production/b54b0a9525e943809d5cfd9b1549b9f7d3b8858f-500x500.png',
       'https://cdn.sanity.io/images/ltuexkre/production/28cdc2c56750f218336fa8f3a528b5c6935c8f43-500x500.png',
