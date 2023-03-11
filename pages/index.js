@@ -7,7 +7,7 @@ import Skills from '../components/Skills';
 
 export default function Home() {
   return (
-    <div className='bg-[rgb(54,69,79)] text-white snap-y snap-mandatory overflow-y-scroll z-0 scrollbar scrollbar-track-[rgb(83,104,120)]/20 scrollbar-thumb-[rgb(112,128,144)]/80'>
+    <div className='bg-[rgb(54,69,79)] text-white h-screen snap-y snap-mandatory z-0 scrollbar scrollbar-track-[rgb(83,104,120)]/20 scrollbar-thumb-[rgb(112,128,144)]/80 overflow-x-hidden '>
       <Head>
         <title>Eddie Kuo</title>
       </Head>
