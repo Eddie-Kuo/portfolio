@@ -6,8 +6,8 @@ import skillSetTwo from '../data/skillSetTwo'
 
 export default function Skills() {
 
-  const skillList = skills.map((skill) => <Skill key={skill} item={skill} />)
-  const skillListTwo = skillSetTwo.map((skill) => <Skill key={skill} item={skill} />)
+  const skillList = skills.map((skill) => <Skill key={skill.id} item={skill.link} name={skill.name} />)
+  const skillListTwo = skillSetTwo.map((skill) => <Skill key={skill} item={skill.link} name={skill.name} />)
 
 return (
     <motion.div className='h-screen flex relative flex-col text-center xl:flex-col md:text-left max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 items-center mx-auto '>
@@ -23,7 +23,7 @@ return (
             duration: 1.5
         }}
         whileInView={{opacity: 1, x:0}}
-        className='grid grid-cols-4 gap-3'>
+        className='grid grid-cols-4 gap-2'>
           {skillList}
       </motion.div>
       <motion.div 
@@ -35,7 +35,7 @@ return (
             duration: 1.5
         }}
         whileInView={{opacity: 1, x:0}}
-        className='grid grid-cols-4 gap-3 pt-3'>
+        className='grid grid-cols-4 gap-2 pt-2'>
           {skillListTwo}
       </motion.div>
     </motion.div>
